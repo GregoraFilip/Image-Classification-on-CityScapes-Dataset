@@ -19,7 +19,7 @@ This architectural design enables the training of much deeper networks without a
 ## Getting Started
 
 ### 1. Data Setup
-Download the CityScapes dataset (e.g., from [Kaggle](https://www.kaggle.com/datasets/shuvoalok/cityscapes)) and store the files in the `data/` directory.
+Download the CityScapes dataset (e.g., from[Kaggle https://www.kaggle.com/datasets/shuvoalok/cityscapes) and store the files in the `data/` directory.
 
 ### 2. Training
 To begin training the model, run:
@@ -49,7 +49,6 @@ The codebase is modularized into four main components:
 
 ---
 ### Write short answers to the questions. Please do not exceed a total of 250 words for all of your answers.
----
 
 1. Project code:
 Code is written in python and can be found in files: dataset.py, inference.py, network.py, training.py. 
