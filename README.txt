@@ -36,20 +36,15 @@ python3 inference.py ./data model.pt
 
 ## Project Stucture
 The codebase is modularized into four main components:
-
-`network.py`: Defines the ResNet architecture.
-`dataset.py`: Handles data loading and preprocessing.
-`training.py`: Contains the training logic and optimization.
-`inference.py`: Used for model evaluation and testing.
-
+- `network.py`: Defines the ResNet architecture.
+- `dataset.py`: Handles data loading and preprocessing.
+- `training.py`: Contains the training logic and optimization.
+- `inference.py`: Used for model evaluation and testing.
 
 ## Project mandatory parts:
-
 ### STUDENT's UCO: 525265
-
 ---
 ### Write short answers to the questions. Please do not exceed a total of 250 words for all of your answers.
-
 1. Project code:
 Code is written in python and can be found in files: dataset.py, inference.py, network.py, training.py. 
 For training I used classic fit method with early stopping and picking the best model.
