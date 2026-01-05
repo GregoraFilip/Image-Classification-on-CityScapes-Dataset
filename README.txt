@@ -23,13 +23,13 @@ Download the CityScapes dataset (e.g., from [Kaggle](https://www.kaggle.com/data
 
 ### 2. Training
 To begin training the model, run:
-```
+```bash
 python3 training.py ./data
 ```
 The training process utilizes a "classic fit" method with early stopping to ensure the best performing model is saved.
 
 ### 3. Inference
-```
+```bash
 python3 inference.py ./data model.pt
 ```
 
@@ -47,9 +47,9 @@ The codebase is modularized into four main components:
 
 ### STUDENT's UCO: 525265
 
-############################################################################################################
-### Write short answers to the questions. Please do not exceed a total of 250 words for all of your answers. #
-############################################################################################################
+---
+### Write short answers to the questions. Please do not exceed a total of 250 words for all of your answers.
+---
 
 1. Project code:
 Code is written in python and can be found in files: dataset.py, inference.py, network.py, training.py. 
