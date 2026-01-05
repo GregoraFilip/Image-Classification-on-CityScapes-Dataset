@@ -1,8 +1,8 @@
 # Image Classification on CityScapes Dataset
+by Filip Gregora
 
 This project implements an image classification pipeline using the **CityScapes dataset**.
 It features a custom training loop with early stopping, model checkpointing, and an inference script for evaluating the trained weights.
-
 
 ## Project Overview
 
@@ -15,7 +15,6 @@ ResNet’s primary advantage lies in its use of **residual connections (skip con
 These allow gradients to flow more easily through the network during backpropagation, effectively mitigating the **vanishing gradient problem**.
 This architectural design enables the training of much deeper networks without a loss in performance.
 
-
 ---
 ## Getting Started
 
@@ -24,13 +23,13 @@ Download the CityScapes dataset (e.g., from [Kaggle](https://www.kaggle.com/data
 
 ### 2. Training
 To begin training the model, run:
-```bash
+```
 python3 training.py ./data
 ```
 The training process utilizes a "classic fit" method with early stopping to ensure the best performing model is saved.
 
 ### 3. Inference
-```bash
+```
 python3 inference.py ./data model.pt
 ```
 
